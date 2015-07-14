@@ -88,7 +88,6 @@
 		6460872D160CFB6700A1458B /* OTMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 646086E7160CFB6700A1458B /* OTMSegmentedControl.m */; };
 		6460872E160CFB6700A1458B /* OTMTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 646086E9160CFB6700A1458B /* OTMTableView.m */; };
 		6460872F160CFB6700A1458B /* OTMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 646086EB160CFB6700A1458B /* OTMView.m */; };
-		646087C3160D01A700A1458B /* Implementation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6460877B160D01A700A1458B /* Implementation.plist */; };
 		646087CC160D01D900A1458B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 646087C5160D01D900A1458B /* Default.png */; };
 		646087CD160D01D900A1458B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 646087C6160D01D900A1458B /* Default@2x.png */; };
 		6470BEE418DB8C0B00C56A8F /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 6470BEE018DB8C0B00C56A8F /* Icon-72.png */; };
@@ -328,7 +327,6 @@
 		646086E9160CFB6700A1458B /* OTMTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTMTableView.m; sourceTree = "<group>"; };
 		646086EA160CFB6700A1458B /* OTMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTMView.h; sourceTree = "<group>"; };
 		646086EB160CFB6700A1458B /* OTMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTMView.m; sourceTree = "<group>"; };
-		6460877B160D01A700A1458B /* Implementation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Implementation.plist; sourceTree = "<group>"; };
 		646087C5160D01D900A1458B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		646087C6160D01D900A1458B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		6470BEE018DB8C0B00C56A8F /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
@@ -406,11 +404,11 @@
 		D7C990281518C89F0094770C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		D7D26C7F185B69510034BF77 /* OTM2API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTM2API.h; sourceTree = "<group>"; };
 		D7D26C80185B69510034BF77 /* OTM2API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTM2API.m; sourceTree = "<group>"; };
-		E943971214F447EB007CD0D1 /* OpenTreeMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenTreeMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E943971214F447EB007CD0D1 /* OpenTreeMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = OpenTreeMap.app; path = "/Users/FCCDR-MacMini/Documents/otm2_ios_20150713/otm-ios/OpenTreeMap/build/Debug-iphoneos/OpenTreeMap.app"; sourceTree = "<absolute>"; };
 		E943971614F447EB007CD0D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E943971814F447EB007CD0D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E943971A14F447EB007CD0D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E943974114F447EB007CD0D1 /* OpenTreeMapTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenTreeMapTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E943974114F447EB007CD0D1 /* OpenTreeMapTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = OpenTreeMapTests.octest; path = "/Users/FCCDR-MacMini/Documents/otm2_ios_20150713/otm-ios/OpenTreeMap/build/Debug-iphoneos/OpenTreeMapTests.octest"; sourceTree = "<absolute>"; };
 		E943974214F447EB007CD0D1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
@@ -711,7 +709,6 @@
 			children = (
 				647E445616417BDF000CF872 /* about.html */,
 				64608738160D01A700A1458B /* images */,
-				6460877B160D01A700A1458B /* Implementation.plist */,
 			);
 			name = Skin;
 			path = skin;
@@ -784,20 +781,10 @@
 				64608649160CFB2800A1458B /* OpenTreeMap-Info.plist */,
 				6460864A160CFB2800A1458B /* OpenTreeMap.entitlements */,
 				E943971514F447EB007CD0D1 /* Frameworks */,
-				E943971314F447EB007CD0D1 /* Products */,
 				6460864D160CFB4600A1458B /* Resources */,
 				64608730160D01A700A1458B /* Skin */,
 				64608658160CFB6700A1458B /* Source */,
 			);
-			sourceTree = "<group>";
-		};
-		E943971314F447EB007CD0D1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E943971214F447EB007CD0D1 /* OpenTreeMap.app */,
-				E943974114F447EB007CD0D1 /* OpenTreeMapTests.octest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		E943971514F447EB007CD0D1 /* Frameworks */ = {
@@ -858,7 +845,7 @@
 			name = OpenTreeMapTests;
 			productName = OpenTreeMapTests;
 			productReference = E943974114F447EB007CD0D1 /* OpenTreeMapTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -867,6 +854,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = OTM;
+				LastTestingUpgradeCheck = 0630;
 				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = E943970C14F447EB007CD0D1 /* Build configuration list for PBXProject "OpenTreeMap" */;
@@ -877,7 +865,7 @@
 				en,
 			);
 			mainGroup = E943970714F447EB007CD0D1;
-			productRefGroup = E943971314F447EB007CD0D1 /* Products */;
+			productRefGroup = E943970714F447EB007CD0D1;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -926,7 +914,6 @@
 				64D458FF190EF3BA005BAF47 /* handle_icon.png in Resources */,
 				649426E619008F3300923470 /* SettingsIcon.png in Resources */,
 				64D45915190EF3BA005BAF47 /* TabBar_profile-active@2x.png in Resources */,
-				646087C3160D01A700A1458B /* Implementation.plist in Resources */,
 				64D4591C190EF3BA005BAF47 /* Treemap_Contactbook.png in Resources */,
 				64D4590C190EF3BA005BAF47 /* TabBar_about-active.png in Resources */,
 				646087CC160D01D900A1458B /* Default.png in Resources */,
@@ -1111,7 +1098,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -1188,7 +1175,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = (
 					"-DNS_BLOCK_ASSERTIONS=1",
 					"-g3",
@@ -1274,7 +1261,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
@@ -1298,7 +1285,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = (
 					"-DNS_BLOCK_ASSERTIONS=1",
 					"-g3",
@@ -1422,7 +1409,7 @@
 				7A6464AC14F5879F00B77910 /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		E943975314F447EB007CD0D1 /* Build configuration list for PBXNativeTarget "OpenTreeMap" */ = {
 			isa = XCConfigurationList;
@@ -1433,7 +1420,7 @@
 				7A6464AD14F5879F00B77910 /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		E943975614F447EB007CD0D1 /* Build configuration list for PBXNativeTarget "OpenTreeMapTests" */ = {
 			isa = XCConfigurationList;
@@ -1444,7 +1431,7 @@
 				7A6464AE14F5879F00B77910 /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
