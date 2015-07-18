@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="7zY-vH-TMB">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="7zY-vH-TMB">
     <dependencies>
-        <deployment defaultVersion="1280" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller - Tree Map-->
+        <!--Tree Map-->
         <scene sceneID="q3d-8f-SBs">
             <objects>
                 <navigationController definesPresentationContext="YES" id="IOc-fB-8NC" sceneMemberID="viewController">
@@ -21,7 +21,7 @@
             </objects>
             <point key="canvasLocation" x="1214" y="-158"/>
         </scene>
-        <!--Map View Controller - First-->
+        <!--First-->
         <scene sceneID="11">
             <objects>
                 <viewController title="First" id="2" customClass="OTMMapViewController" sceneMemberID="viewController">
@@ -182,7 +182,7 @@
             </objects>
             <point key="canvasLocation" x="1720" y="-158"/>
         </scene>
-        <!--Tree Detail View Controller - Tree Detail-->
+        <!--Tree Detail-->
         <scene sceneID="Dv8-v2-A1v">
             <objects>
                 <viewController id="Z5j-QU-uNU" customClass="OTMTreeDetailViewController" sceneMemberID="viewController">
@@ -204,14 +204,14 @@
                                 <rect key="frame" x="0.0" y="64" width="320" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="&lt; Address >" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Imi-kc-vP1">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="&lt; Address &gt;" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Imi-kc-vP1">
                                         <rect key="frame" x="90" y="28" width="216" height="16"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="&lt; Species >" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="a81-a2-XX4">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="&lt; Species &gt;" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="a81-a2-XX4">
                                         <rect key="frame" x="90" y="10" width="216" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -270,7 +270,7 @@
             </objects>
             <point key="canvasLocation" x="3106" y="-174"/>
         </scene>
-        <!--Filter List View Controller - Filter-->
+        <!--Filter-->
         <scene sceneID="zp8-W1-VWl">
             <objects>
                 <viewController id="hZa-Zz-ezt" customClass="OTMFilterListViewController" sceneMemberID="viewController">
@@ -345,7 +345,7 @@
             </objects>
             <point key="canvasLocation" x="3106" y="-846"/>
         </scene>
-        <!--Species Table View Controller - Species-->
+        <!--Species-->
         <scene sceneID="UYx-NC-Q9u">
             <objects>
                 <tableViewController id="v8c-v7-6H5" customClass="OTMSpeciesTableViewController" sceneMemberID="viewController">
@@ -427,7 +427,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Default.png" id="dh5-PK-ckz">
-                                <rect key="frame" x="0.0" y="-20" width="320" height="588"/>
+                                <rect key="frame" x="13" y="33" width="295" height="291"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
@@ -443,7 +443,7 @@
             </objects>
             <point key="canvasLocation" x="-1926" y="180"/>
         </scene>
-        <!--Instance Select Table View Controller - OpenTreeMap-->
+        <!--OpenTreeMap-->
         <scene sceneID="vem-LK-EH6">
             <objects>
                 <tableViewController id="dsU-64-c8o" customClass="OTMInstanceSelectTableViewController" sceneMemberID="viewController">
@@ -470,7 +470,7 @@
                         </view>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="OTMInstanceSelectTableViewCellIdentifier" textLabel="ird-SB-6HL" style="IBUITableViewCellStyleDefault" id="itm-pL-ajW">
-                                <rect key="frame" x="0.0" y="119" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="114" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="itm-pL-ajW" id="HFa-Di-new">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -588,7 +588,7 @@
             </objects>
             <point key="canvasLocation" x="132" y="180"/>
         </scene>
-        <!--Password Change View Controller - Change Password-->
+        <!--Change Password-->
         <scene sceneID="nHT-PS-EZ6">
             <objects>
                 <viewController id="u8W-4J-SZB" customClass="OTMPasswordChangeViewController" sceneMemberID="viewController">
@@ -649,7 +649,7 @@
             </objects>
             <point key="canvasLocation" x="2586" y="439"/>
         </scene>
-        <!--Field Detail View Controller - Field Detail-->
+        <!--Field Detail-->
         <scene sceneID="gGM-RX-8a7">
             <objects>
                 <tableViewController id="qxZ-Vn-7jv" customClass="OTMFieldDetailViewController" sceneMemberID="viewController">
@@ -659,7 +659,7 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="kFieldDetailCurrentValueCellIdentifier" textLabel="Ig8-6N-hGz" style="IBUITableViewCellStyleDefault" id="cP2-oS-a8r">
-                                <rect key="frame" x="0.0" y="119" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="114" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cP2-oS-a8r" id="WNk-Cf-bPq">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -676,7 +676,7 @@
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="kFieldDetailPendingEditCellIdentifier" textLabel="nNw-rv-dw3" detailTextLabel="y08-OM-1oN" style="IBUITableViewCellStyleSubtitle" id="wwu-AA-ZkQ">
-                                <rect key="frame" x="0.0" y="163" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="158" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wwu-AA-ZkQ" id="X6m-fP-hOI">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -700,7 +700,7 @@
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="kFieldDetailPendingLocationEditCellIdentifier" id="dUj-hV-tjR" customClass="OTMMapTableViewCell">
-                                <rect key="frame" x="0.0" y="207" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="202" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dUj-hV-tjR" id="3wA-Ko-c3f">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -759,7 +759,7 @@
             </objects>
             <point key="canvasLocation" x="3187" y="733"/>
         </scene>
-        <!--Image View Controller - Tree Photo-->
+        <!--Tree Photo-->
         <scene sceneID="S37-kM-CBV">
             <objects>
                 <viewController id="u1i-qA-0UN" customClass="OTMImageViewController" sceneMemberID="viewController">
@@ -799,7 +799,7 @@
             </objects>
             <point key="canvasLocation" x="1915" y="1006"/>
         </scene>
-        <!--Profile View Controller - Profile-->
+        <!--Profile-->
         <scene sceneID="5wF-2u-wWk">
             <objects>
                 <viewController id="Duy-es-aav" customClass="OTMProfileViewController" sceneMemberID="viewController">
@@ -853,7 +853,7 @@
             </objects>
             <point key="canvasLocation" x="1194" y="499"/>
         </scene>
-        <!--Navigation Controller - Tree List-->
+        <!--Tree List-->
         <scene sceneID="f8G-zt-XN4">
             <objects>
                 <navigationController definesPresentationContext="YES" id="Bua-WS-BqB" sceneMemberID="viewController">
@@ -915,7 +915,7 @@
             </objects>
             <point key="canvasLocation" x="1720" y="-767"/>
         </scene>
-        <!--Navigation Controller - Profile-->
+        <!--Profile-->
         <scene sceneID="SRH-GT-8eT">
             <objects>
                 <navigationController title="Profile" definesPresentationContext="YES" id="bif-JI-aQc" sceneMemberID="viewController">
@@ -931,7 +931,7 @@
             </objects>
             <point key="canvasLocation" x="688" y="447"/>
         </scene>
-        <!--About View Controller - About-->
+        <!--About-->
         <scene sceneID="IIX-qj-m7w">
             <objects>
                 <viewController id="eCd-qX-6ya" customClass="OTMAboutViewController" sceneMemberID="viewController">
@@ -966,13 +966,13 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Chevron_right.png" width="9" height="15"/>
-        <image name="Default.png" width="320" height="480"/>
-        <image name="Default_feature-image.png" width="75" height="75"/>
-        <image name="TabBar_about.png" width="22" height="22"/>
-        <image name="TabBar_details.png" width="26" height="20"/>
-        <image name="TabBar_profile.png" width="22" height="22"/>
-        <image name="TabBar_treemap.png" width="18" height="26"/>
+        <image name="Chevron_right.png" width="57" height="57"/>
+        <image name="Default.png" width="57" height="57"/>
+        <image name="Default_feature-image.png" width="57" height="57"/>
+        <image name="TabBar_about.png" width="57" height="57"/>
+        <image name="TabBar_details.png" width="57" height="57"/>
+        <image name="TabBar_profile.png" width="57" height="57"/>
+        <image name="TabBar_treemap.png" width="57" height="57"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -981,9 +981,9 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="hNa-Ed-G3s"/>
-        <segue reference="XK6-IA-5KH"/>
-        <segue reference="vdU-No-GUA"/>
+        <segue reference="2CQ-vY-uwt"/>
         <segue reference="ROJ-aE-inW"/>
+        <segue reference="vdU-No-GUA"/>
         <segue reference="Lek-fL-nUD"/>
     </inferredMetricsTieBreakers>
 </document>
